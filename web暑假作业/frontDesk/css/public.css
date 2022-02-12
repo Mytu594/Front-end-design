@@ -1,0 +1,257 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#wrap{
+	position: absolute;
+	left: 50%;
+	margin-left:-400px; 
+}
+img{
+  outline-width:0px;
+  vertical-align:top;
+}
+/*----------------------------头部-----------------*/
+header{
+	width: 800px;
+	height: 72px;
+	background-image: url(../img/public/headVice.jpg);
+}
+#header{
+	float: left;
+	width: 800px;
+	height: 72px;
+	border-style: none;
+}
+#header-wrap{
+	/*头部信息位置控制*/
+	padding: 5px 145px 0px 45px;
+}
+#header-top a{
+	text-decoration: none;
+}
+#header-top span{
+	display: inline-block;
+	height: 20px;
+	color: rgb(85,62,48);
+	font-size: 13px;
+}
+#header-bottom table{
+	width:610px;
+}
+#header-bottom td{
+	color: rgb(85,62,48);
+	font-size: 12px;
+}
+/*-----------------------头部结束---------------------*/
+/*-----------------------滚动条内容----------------*/
+#scrollBar{
+	width: 800px;
+	height: 26px;
+	background-image: url(../img/public/bodyVice.jpg);
+}
+#pSB{
+	float: left;
+	width: 800px;
+	height: 26px;
+	border-style: none;
+}
+#pSB-wrap{
+	padding: 0px 135px 0px 45px;
+	line-height: 21px;
+	font-size: 13px;
+}
+/*-----------------------滚动条内容结束----------------*/
+/*主体大小*/
+main{
+	width: 800px;
+	height: 846px;
+}
+/*页面左部分*/
+#LSide{
+	float: left;
+	width: 74px;
+	height: 846px;
+	background-image: url(../img/public/LSide.jpg);
+}
+/*页面右部分*/
+#RSide{
+	float: right;
+	width: 122px;
+	height: 846px;
+	background-image: url(../img/public/RSide.jpg);
+}
+
+/*--------------------------脚步工具图层--------------------*/
+#footBar{
+	width: 800px;
+	height: 25px;
+	background-image: url(../img/public/footVice.jpg);
+}
+#pFootBar{
+	float: left;
+	width: 800px;
+	height: 25px;
+	border-style: none;
+}
+#pFootBar-wrap{
+	padding: 0px 175px 0px 70px;
+}
+#pFootBar-wrap li{
+	height: 25px;
+	list-style-type: none;
+	float: left;
+	margin-left: 5px;
+}
+#pFootBar-wrap li a{
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 25px;
+}
+/*—————————————————————————————————侧栏开始———————————————————————————————————————*/
+/*侧栏大小位置*/
+aside{
+	float: left;
+	width: 184px;
+}
+#aside{
+	float: left;
+	width: 184px;
+	height: 846px;
+	border-style: none;
+}
+/*第一部分*/
+#o1{
+	width: 184px;
+	height: 35px;
+	background-image: url(../img/public/11.jpg);
+}
+#o2{
+	width: 184px;
+	height: 30px;
+	background-image: url(../img/public/12.jpg);
+}
+#o3{
+	width: 184px;
+	height: 29px;
+	background-image: url(../img/public/13.jpg);
+}
+#o4{
+	width: 184px;
+	height: 29px;
+	background-image: url(../img/public/14.jpg);
+}
+#o5{
+	width: 184px;
+	height: 29px;
+	background-image: url(../img/public/15.jpg);
+}
+#o6{
+	width: 184px;
+	height: 29px;
+	background-image: url(../img/public/16.jpg);
+}
+#o7{
+	width: 184px;
+	height: 16px;
+	background-image: url(../img/public/17.jpg);
+}
+#one a{
+	padding-left: 20px;
+	text-decoration: none;
+	color: white;
+	font-size: 13px;
+	font-weight: 550;
+	line-height: 29px;
+}
+#one span{
+	color: rgb(110,69,13);
+	font-size: 12px;
+}
+#o1 a{
+	line-height: 35px;
+}
+/*第二部分*/
+#tw1{
+	width: 184px;
+	height: 152px;
+	background-color: rgb(250,252,249);
+	text-align: center;
+}
+/*第三部分*/
+#th1{
+	width: 184px;
+	height: 179px;
+	background-image: url(../img/public/32.jpg);
+}
+#three ul{
+	padding-left: 20px;
+	padding-top: 20px;
+}
+#three li{
+	background: url(../img/public/33.jpg) no-repeat;
+	background-position:left center;
+	padding-left: 10px;
+	width: 80px;
+	height: 25px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#three a{
+	text-decoration: none;
+	font-size: 13px;
+}
+#three p{
+	text-align: right;
+}
+/*第四部分*/
+#fo1{
+	width: 184px;
+	height: 106px;
+	background-image: url(../img/public/42.jpg);
+}
+/*第五部分*/
+#fi1{
+	width: 184px;
+	height: 96px;
+	background-image: url(../img/public/52.jpg);
+}
+#fi1 ul{
+	padding-left: 40px;
+	padding-top: 10px;
+}
+#fi1 li{
+	height:20px;
+	font-size: 12px;
+	list-style-type: none;
+}
+/*—————————————————————————————————侧栏完———————————————————————————————————————*/
+#main{
+	float: left;
+	width: 407px;
+	height:846px;
+
+}
+
+#calendar{
+	position: absolute;
+	/*border:1px solid rgb(190,178,156);*/
+	background-color: rgb(190,178,156);
+	width: 180px;
+	font-size: 13px;
+	font-weight: 550;
+}
+#calendar tr{
+	text-align: center;
+	background-color: rgb(250,252,249);
+}
+#th td{
+	background-color: rgb(201,182,90);
+	color: white;
+	border:1px solid white;
+	height: 20px;
+}
+#th .sp{
+	color: red;
+}

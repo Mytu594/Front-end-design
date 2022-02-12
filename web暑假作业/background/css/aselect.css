@@ -1,0 +1,81 @@
+#aselect-top{
+	display: inline-block;
+	width: 550px !important;
+	height: 25px;
+	background-position:left center;
+	background-color: white;
+	line-height: 25px;
+	font-size: 12px;
+}
+#aselect-top img{
+	vertical-align: middle;
+	margin:7.5px 3px;
+	margin-left: 10px;
+}
+#aselect-link{
+	width: 430px !important;
+	text-align: center;
+	height: 25px;
+	padding-left: 100px;
+}
+#aselect-link li{
+	float: left;
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	margin-right: 5px;
+}
+#aselect-link a{
+	color: black;
+	text-decoration: none;
+}
+#aselect-link a:hover{
+	color: red;
+}
+#aselect-body{
+
+}
+#aselect-body table{
+	background-color: rgb(254,206,98);
+	margin-left: 20px;
+	margin-top: 20px;
+	font-size: 12px;
+	text-align: center;
+	table-layout: fixed;
+}
+#aselect-body th{
+	border:1px solid white;
+	padding: 0px 2px;
+}
+#aselect-body td{
+	padding: 5px 10px;
+	background-color: white;
+}
+#aselect-body a{
+	text-decoration: none;
+	color: black;
+}
+#aselect-body a:hover{
+	color: red;
+}
+.aselect-title{
+	text-align: left;
+}
+
+#aselect-page{
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	float: right;
+	text-align: center;
+	padding-top: 10px;
+}
+#aselect-page a{
+	color: black;
+	text-decoration: none;
+	margin-left: 10px;
+}
+#aselect-page a:hover{
+	color: red;
+}

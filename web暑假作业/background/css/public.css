@@ -1,0 +1,104 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+img{
+  outline-width:0px;
+  vertical-align:top;
+}
+#wrap{
+	position: absolute;
+	width: 800px;
+	left: 50%;
+	margin-left: -400px;
+}
+header{
+	width: 800px;
+	height: 65px;
+	background-image: url(../img/public/header.jpg);
+}
+#header{
+	width: 800px;
+	height: 65px;
+	border-style: none;
+	float: left;
+}
+main{
+	background-image: url(../img/public/back.gif);
+	min-height: 478px;
+}
+#main-body div{
+	width: 573px;
+	background-image: url(../img/public/body.jpg);
+}
+footer{
+	width: 227px;
+}
+aside{
+	width: 227px;
+	height:478px;
+	display: inline-block;
+	float: left;
+}
+#main-body{
+	width: 573px;
+	display: inline-block;
+}
+#pAside{
+	width: 227px;
+	height:478px;
+	float: left;
+	border-style: none;
+}
+#aside a{
+	text-decoration:none;
+	color:black;
+}
+#aside a:hover{
+	color: red;
+}
+#fTitle{
+	width: 227px;
+	height:25px; 
+	background-image: url(../img/public/aside1.jpg);
+	padding-top: 3px;
+}
+.select{
+	width: 182px;
+	height: 25px;
+	background-image: url(../img/public/aside2.jpg);
+	font-size: 13px;
+	line-height: 25px;
+	padding-left: 45px;
+}
+.title{
+	width: 227px;
+	height: 25px;
+	background-image: url(../img/public/aside3.jpg);
+	
+}
+#fTitle,.title{
+	font-size: 13px;
+	color: red;
+	text-align: center;
+	line-height: 25px;
+}
+.black{
+	color:black;
+	font-weight: 550;
+}
+#link{
+	float: right;
+	margin-right: 125px; 
+	margin-top: 30px;
+	color: white;
+	font-size: 13px
+}
+#link a{
+	text-decoration: none;
+	color: white;
+	font-size: 13px;
+}
+#link a:hover{
+	color: red;
+}

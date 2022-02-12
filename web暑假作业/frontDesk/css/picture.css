@@ -1,0 +1,38 @@
+#picture-main-top{
+	margin: 30px 0px 10px 20px;
+	background:url(../img/picture/icon.gif) no-repeat;
+	background-position:left center;
+	padding-left: 15px;
+	height: 17px;
+	line-height: 17px;
+	font-size: 13px;
+}
+#picture-main-body{
+	padding: 0px 20px;
+}
+#picture-main-body table{
+	width: 100%;
+	background-color: rgb(254,206,98);
+	font-size: 13px;
+	table-layout: fixed;
+}
+#picture-main-body td{
+	text-align: center;
+	padding:5px;
+	background-color: white;
+}
+#picture-main-body img{
+	width: 170px;
+	height: 170px;
+}
+#picture-main-body span{
+	font-size: 13px;
+	display: block;
+	height: 20px;
+	line-height: 20px;
+}
+.picture-name{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}

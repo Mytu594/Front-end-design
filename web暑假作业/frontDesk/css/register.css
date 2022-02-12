@@ -1,0 +1,26 @@
+*{margin: 0px;padding: 0px;}
+#wrap{
+	/*内容居中*/
+	position: absolute;
+	left: 50%;
+	margin-left:-400px; 
+	/*设置大小*/
+	width: 800px;
+	height: 441px;
+	/*设置背景图*/
+	background-image: url("../img/login&register/register.jpg");
+	/*设置内容起始点*/
+	padding-top: 245px;
+}
+main{
+	width: 85%;
+	margin-top: 35px; 
+	text-align: center;
+}
+#gender{
+	text-align: left;
+	display: inline-block;
+	width: 280px;
+	font-size: 14px;
+	font-weight: 550;
+}

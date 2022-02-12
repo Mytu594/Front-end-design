@@ -1,0 +1,59 @@
+#aclass-top{
+	display: inline-block;
+	width: 550px !important;
+	height: 25px;
+	background-position:left center;
+	background-color: white;
+	line-height: 25px;
+	font-size: 12px;
+
+}
+#aclass-top img{
+	vertical-align: middle;
+	margin:7.5px 3px;
+	margin-left: 10px;
+}
+#aclass-body a{
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+	text-align: right;
+}
+#append{
+	display: inline-block;
+	width: 480px;
+}
+#aclass-body a:hover{
+	color: red;
+}
+#aclass-body table{
+	background-color: rgb(254,206,98);
+	width: 400px;
+	font-size: 12px;
+	text-align: center;
+	margin-left: 80px;
+}
+#aclass-body th{
+	border:1px solid white;
+	padding: 0px 2px;
+}
+#aclass-body td{
+	padding: 5px 10px;
+	background-color: white;
+}
+#aclass-page{
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	float: right;
+	text-align: center;
+	padding-top: 10px;
+}
+#aclass-page a{
+	color: black;
+	text-decoration: none;
+	margin-left: 10px;
+}
+#aclass-page a:hover{
+	color: red;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    <meta charset="UTF-8">
+    <title>LunBo</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        li{
+            list-style: none;
+        }
+        .lunbo{
+            margin: 40px auto;
+            height: 430px;
+            width: 590px;
+            position: relative;
+            overflow: hidden;
+        }
+        .lunbo .pic{
+            width:100%; 
+            height:430px; 
+        }
+        .lunbo .pic img{
+            width: 590px;
+            height: 430px;
+            display: block;
+        }
+        ul{
+            height: 18px;
+            width: 151px;
+            background: rgba(255,255,255,.3);
+            position: absolute;
+            left: 50%;
+            margin-left: -76px;
+            border-radius: 10px;
+        }
+        li{
+            height: 14px;
+            width: 14px;
+            border-radius: 50%;
+            background-color: #ccc;
+            float: left;
+            margin:5px 2px;
+            cursor: pointer;
+        }
+        li:hover{ 
+            background-color:#f40;
+        }
+    </style>
+</head>
+<body>
+    <div class="lunbo">
+        <div class="pic">
+            <a name="tu1"><img src="img/1.jpg" alt=""></a>
+            <a name="tu2"><img src="img/2.jpg" alt=""></a>
+            <a name="tu3"><img src="img/3.jpg" alt=""></a>
+            <a name="tu4"><img src="img/4.jpg" alt=""></a>
+            <a name="tu5"><img src="img/5.jpg" alt=""></a>
+            <a name="tu6"><img src="img/6.jpg" alt=""></a>
+        </div>
+    </div>
+    <ul>
+        <a href="#tu1"><li class="current"></li></a>
+        <a href="#tu2"><li></li></a>
+        <a href="#tu3"><li></li></a>
+        <a href="#tu4"><li></li></a>
+        <a href="#tu5"><li></li></a>
+        <a href="#tu6"><li></li></a>
+    </ul>
+</body>
+</html>

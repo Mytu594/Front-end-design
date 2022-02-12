@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>留言板页面</title>
+	<link rel="stylesheet" type="text/css" href="1-7-1.css">
+</head>
+<body>
+	<div id="div0" class="">
+	<div class="div1">
+	<table width="100%">
+     <tr>
+     	<h3 align="left">留言板</h3>
+     	<h5 align="right">科技工作者留言</h5>
+     </tr>
+     </table>
+     <table width="650px" align="center">
+		<tr>
+			<td align="left" style="color:red">发表留言</td>
+		</tr>
+	</table>
+	</div>
+	<div id="div2">     
+		<tr>
+    		<table id="center" align="center" border="1" bordercolor="white" width="650px" height="300px" cellspacing="0px" cellpadding="0px">
+    			<tr>
+    				<td align="center">姓&nbsp;&nbsp;&nbsp;&nbsp;名：</td>
+    				<td><form name="1" method="post" >
+    					<input type="text" name="xingming">
+    				</form></td>
+    			</tr>
+    			<tr>
+    				<td align="center">电子邮件：</td>
+    				<td colspan="5"><form name="2" method="post">
+    					<input type="text" name="e-mail">
+    					</form>
+    				</td>
+    			</tr>
+    			<tr>
+    				<td align="center">分&nbsp;&nbsp;&nbsp;&nbsp;类：</td>
+    				<td>科技工作者建言
+    					    <input type="radio" name="bbm" value="不保密">不保密
+    						<input type="radio" name="bm" value="保密">保密&nbsp;&nbsp;
+    					    留言类型：
+    					<select name="type" >
+    						<option value="#" selected=""></option>
+    						<option value="1">投诉</option>
+							<option value="2">咨询</option>
+							<option value="3">建议</option>
+							<option value="4">反馈</option>
+    					</select>
+    				</td>
+    				<td rowspan="4"></td>
+    			</tr>
+    			<tr>
+    				<td align="center">留言：</td>
+    				<td>
+    					<textarea name="liuyan" rows="5" cols="35"></textarea></td>
+    			</tr>
+    			<tr >
+    				<td colspan="7">注：如果您的留言不便公开，请选择“保密”选项，提交后可凭系统反馈给您的留言编码，查询密码和您的姓名查询回复。</td>
+    			</tr>
+    			<tr>
+    				<td align="center" colspan="7">
+    					<input type="submit" value="提交">
+    					<input type="submit" value="清空">
+
+    				</td>
+    			</tr>
+    			<tr>
+    				<td colspan="7">
+    					<ul>
+							<li>请遵守国家有关法律、法规，尊重网上道德，承担一切因您的行为而直接或间接引起的法律责任。</li>
+							<li>本网站拥有管理笔名和留言的一切权利。</li>
+						</ul>
+    				</td>
+    			</tr>
+    		</table>
+     </tr>
+    </div>
+    </div>
+</body>
+</html>

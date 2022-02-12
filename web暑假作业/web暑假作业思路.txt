@@ -1,0 +1,90 @@
+一、公共部分
+	|--前台
+1、解决图片间隙问题
+img{
+  outline-width:0px;
+  vertical-align:top;
+}
+2、怎么在图片上精确写东西
+	01、将图层限制为照片或拼接后照片大小。
+	02、设置图层内边距，将内容起始点改为目的。
+3、怎么抽取页面公共部分
+	用Ajax解决，注意：记得导入jQuery。
+	用Ajax得有服务器
+	用ifram框引入
+4、日历怎么弄
+	用js解决
+5、列表
+	#three li{
+		background: url(../img/public/33.jpg) no-repeat;
+		background-position:left center;
+		padding-left: 10px;
+		width: 80px;
+		height: 25px;
+    		text-overflow: ellipsis;
+    		white-space: nowrap;
+    		overflow: hidden;
+	}
+6、多行文本省略号
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+7、滚动条
+	overflow-y:auto;
+8、背景图片技巧
+	background:url(../img/notice/icon.gif) no-repeat;
+	background-position:left center;
+9、表格技巧
+公共部分
+	|--头部工具：图层设为图片大小，在图层内进行内容排版
+	|--滚动条
+	|--尾部：图层、背景、列表
+	|--侧栏：
+		|--左left：
+		|--右right：
+			五部分：
+			one：图层、背景
+			two：表格
+			three：列表
+			four：图层、背景
+			five：列表
+首页思路
+	|--主体内容：
+		一个链接列表
+		标题
+			字体大小、颜色
+		正文
+			文段大小、隐藏内容
+		链接
+			字体大小、颜色
+		时间、阅读数、回复
+		分割线
+公告信息：
+	表格信息提示:图片
+	表格：边框颜色、溢出	
+	分页：
+照片页：
+	同公告信息
+
+	|--后台
+文章页
+	|--表格：
+		图、标题、介绍
+		|--文章查询：
+			功能标题
+			链接
+			表格
+		|--文章添加：
+			功能标题
+			表格
+			表单
+		|--文章类别查询：
+			功能标题
+			表格
+相片
+	功能标题
+		表格
+		表单
+			
+		

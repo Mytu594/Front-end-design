@@ -1,0 +1,23 @@
+#article-body table{
+	width: 450px;
+	height: 350px;
+	text-align: left;
+	margin-left: 55px;
+}
+#article-body td{
+	
+}
+#article-body a{
+	font-size: 13px;
+	color: rgb(137,75,36);
+	text-decoration: none;
+
+}
+#article-body a:hover{
+	color: red;
+}
+#article-body p{
+	width: 135px;
+	font-size:12px;
+	color: rgb(105,101,100);
+}

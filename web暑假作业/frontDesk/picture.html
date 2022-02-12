@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>相片</title>
+	<link rel="stylesheet" type="text/css" href="css/public.css">
+	<link rel="stylesheet" type="text/css" href="css/picture.css">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/public.js"></script>
+</head>
+<body>
+	<div id="wrap">
+	<!-- 头部 -->
+	<img src="img/public/head.jpg">
+	<header>
+		<!-- 头部内容 -->
+		<iframe src="pHeader.html" id="header"></iframe>
+	</header>
+	<!-- 滚动条 -->
+	<div id="scrollBar">
+		<!-- 滚动内容 -->
+		<iframe src="pSB.html" id="pSB"></iframe>
+	</div>
+	<main>
+		<!-- 左栏 -->
+		<div id="LSide"></div>
+		<!-- 主体 -->
+		<div id="main">
+			<div id="picture-main">
+				<div id="picture-main-top">
+					查询所有的相片
+				</div>
+				<div id="picture-main-body">
+					<table>
+						<tr>
+							<td>
+								<img src="img/picture/nathan-dumlao-unsplash.jpg">
+								<span class="picture-name">帽子</span>
+								<span class="picture-time">2013年10月21日 星期一</span>
+							</td>
+							<td>
+								<img src="img/picture/room-unsplash.jpg">
+								<span class="picture-name">房间</span>
+								<span class="picture-time">2013年10月21日 星期一</span>
+							</td>
+						</tr>
+
+
+					</table>
+				</div>
+			</div>
+		</div>
+		<!-- 分割线 -->
+		<img src="img/public/vLine.jpg" style="float: left;">
+		<!-- 侧栏 -->
+		<aside>
+			<!-- 侧栏内容 -->
+			<iframe src="pAside.html" id="aside"></iframe>
+		</aside>
+		<!-- 右栏 -->
+		<div id="RSide" ></div>
+	</main>
+	<!-- 尾部 -->
+	<img src="img/public/footVice2.jpg">
+	<!-- 尾部工具条 -->
+	<div id="footBar">
+		<!-- 尾部工具条内容 -->
+		<iframe src="pFootBar.html" id="pFootBar"></iframe>
+	</div>
+	<img src="img/public/foot.jpg">
+</div>
+
+</body>
+</html>

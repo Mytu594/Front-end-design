@@ -1,0 +1,10 @@
+.int_css{
+	border: 2px solid;
+	text-align: center;
+	color: red;
+}
+
+#h1_css{
+	font-size: 28px;
+	font-style: italic;
+}

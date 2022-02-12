@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>公共模板</title>
+	<link rel="stylesheet" type="text/css" href="css/public.css">
+	<link rel="stylesheet" type="text/css" href="css/aclass.css">
+</head>
+<body>
+	<div id="wrap">
+		<!-- 头 -->
+		<header>
+			<iframe src="pHeader.html" id="header"></iframe>
+		</header>
+		<img src="img/public/headerVice.jpg">
+		<!-- 主体内容 -->
+		<main>
+			<!-- 侧栏 -->
+			<aside>
+				<iframe src="pAside.html" id="pAside"></iframe>
+			</aside>
+			<!-- 内容 -->
+			<div id="main-body">
+				<img src="img/public/bodyTop.jpg">
+				<div id="">
+					<div id="aclass-top">
+						<img src="img/public/icon.gif">
+						文章添加
+					</div>
+					<div id="aclass-body">
+						<a id="append" style="" href="">添加</a>
+						<table>
+							<tr>
+								<th>类别名称</th>
+								<th>类别描述</th>
+								<th>操作</th>
+							</tr>
+							<tr>
+								<td>个人日记</td>
+								<td>记录一天所发生的事情</td>
+								<td><a href="">删除</a></td>
+							</tr>
+							<tr>
+								<td>个人随想</td>
+								<td>记录心里所想</td>
+								<td><a href="">删除</a></td>
+							</tr>
+						</table>
+					</div>
+					<div id="aclass-page">
+						当前页数：[<span id="currentPage">1</span>/<span id="totalPage">1</span>]<a href="">下一页</a><a href="">最后一页</a>
+					</div>
+				</div>
+				<img src="img/public/bodyVice.jpg">
+			</div>
+		</main>
+		<!-- 脚 -->
+		<footer><img src="img/public/footer.jpg"></footer>
+	</div>
+</body>
+</html>

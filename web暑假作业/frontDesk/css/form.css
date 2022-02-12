@@ -1,0 +1,35 @@
+/*一个表单原件块的外边距*/
+.form-group{
+	margin: 10px;
+}
+/*一个块里面的标签*/
+.form-group label{
+	display: inline-block;
+	font-size: 14px;
+	width:70px;
+	font-weight: 550;
+	text-align: left;
+}
+/*一个块里面的输入框样式*/
+.form-group input[type="text"]{
+	width: 200px;
+	height: 20px;
+	background-color: rgb(222,207,178);
+	border:1px solid rgb(198,184,147);
+}
+.form-group input[type="radio"]{
+	margin-right: 5px;
+	margin-left:5px; 
+}
+/*将连接元素变为小按钮*/
+.button{
+	display: inline-block;
+	width: 60px;
+	height: 25px;
+	margin: 5px 10px;
+}
+/*设置连接元素内的图片大小*/
+.button img{
+	width: 60px;
+	height: 25px;
+}
